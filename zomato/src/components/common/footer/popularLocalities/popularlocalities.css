@@ -1,0 +1,50 @@
+.footer_section {
+   width: 1100px;
+   margin: 0 auto;
+}
+.footer_section h1{
+    color: rgb(54, 54, 54);
+        font-size: 2.4rem;
+        line-height: 1.2;
+        font-weight: 400;
+}
+
+.footer_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.sc_content {
+    text-decoration: none;
+    height: 75px;
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgb(194, 188, 188);
+    box-shadow: 1px 1px 2px gray;
+}
+.sc_content:hover {
+    box-shadow: 1px 1px 5px gray;
+}
+.sc_content a{
+    text-decoration-line: none;
+    color: #565555;
+}
+.footer_container .hide{
+    display: none;
+}
+.footer_container .show {
+    display: block;
+}
+.section{
+    position: relative;
+}
+.chevron{
+        position: absolute;
+            top: 50%;
+            right: 10px;
+}

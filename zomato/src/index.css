@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 @import './styles/commonClassess.css';
 @import "./styles/variable.css";
+@font-face {
+  font-family: 'okra';
+  src: local('okra'), url(assets/fonts/okra.woff2) format('woff2');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
+}
 body {
   margin: 0;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'okra', 'Nunito', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+  font-size: 100%;
 }
 
 code {

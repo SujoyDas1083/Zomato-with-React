@@ -1,7 +1,11 @@
-import React from 'react'
-
+import ExploreOptions from "./Exploreoption";
+import PopularLocalities from "./popularLocalities";
 const Footer = () => {
-  return<div>Zomato</div>
+  return (
+    <>
+      <PopularLocalities />
+      <ExploreOptions />
+    </>
+  );
 };
-
 export default Footer;
