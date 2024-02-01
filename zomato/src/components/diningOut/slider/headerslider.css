@@ -1,0 +1,28 @@
+.headerSlider{
+}
+.headerSlider h1,  .headerSlider p{
+    margin-top: 30px;
+}
+ 
+.slider{
+    margin: 20px auto;
+    width: 95%;
+}
+.card{
+height: 300px;
+width: 95% !important;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 1px 1px 3px rgb(192, 191, 191);
+position: relative;
+margin-right: 10px;
+}
+.card img{
+    height: 300px;
+}
+.footer{
+    color: #fff;
+        position: absolute;
+        bottom: 15px;
+        padding-left: 15px;
+}

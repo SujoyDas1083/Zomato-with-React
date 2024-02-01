@@ -13,7 +13,7 @@ const Homepage = () => {
     <div>
       <Header />
       <TabOptions activeTab={activeTab} setActiveTab={setActiveTab} />
-      {getCorrectScreen()}
+      {getCorrectScreen(activeTab)}
       <Footer />
     </div>
   );
