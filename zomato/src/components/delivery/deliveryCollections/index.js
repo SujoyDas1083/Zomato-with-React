@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "./deliveryCollections.css";
 import NextArrow from "../../common/carousel/nextArrow";
 import DeliveryItem from "./deliveryItem";
+import PrevArrow from "../../common/carousel/prevArrow";
 
 const deliveryItem = [
   {
@@ -84,7 +85,7 @@ const settings = {
   slidesToShow: 6,
   slidesToScroll: 1,
   nextArrow: <NextArrow />,
-  prevArrow: <prevArrow />,
+  prevArrow: <PrevArrow />,
 };
 
 const DeliveryCollections = () => {
@@ -93,9 +94,9 @@ const DeliveryCollections = () => {
       <div className="max-width">
         <div className="collection-title">Inspiration for your first order</div>
         <Slider {...settings}>
-            {deliveryItem.map((item) => {
-                return <DeliveryItem item={item} />;
-            })}
+          {deliveryItem.map((item) => {
+            return <DeliveryItem item={item} />;
+          })}
         </Slider>
       </div>
     </div>

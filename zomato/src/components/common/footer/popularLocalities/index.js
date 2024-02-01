@@ -23,15 +23,6 @@ const PopularLocalities = () => {
     { title: "Sector 1, Salt Lake", footer: "243 places" },
     { title: "Ballygunge", footer: "170 places" },
     { title: "New Town", footer: "809 places" },
-    { title: "Camac street Area", footer: "73 places" },
-    { title: "Kasba", footer: "152 places" },
-    { title: "Science City Area", footer: "47 places" },
-    { title: "Kankurgachi", footer: "154places" },
-    { title: "New Market Area", footer: "126 places" },
-    { title: "Desapriya Park", footer: "184 places" },
-    { title: "Park Circus Area", footer: "184 places" },
-    { title: "Desapriya Park", footer: "184 places" },
-    { title: "Park Circus Area", footer: "184 places" },
   ];
   const scContent = (item, index) => {
     return (
