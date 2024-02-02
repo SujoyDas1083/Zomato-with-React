@@ -13,8 +13,7 @@ import Youtube from './images/youtube.png'
 export default function Footer2() {
   return (
   <>
-  <h2>Footer</h2>
-    return <div className={footerCss.footer}>
+     <div className={footerCss.footer}>
         <div className={footerCss.innerFooter}>
             <div className={footerCss.sec1}>
                 <div className={footerCss.logoBox}>Zomato</div>
