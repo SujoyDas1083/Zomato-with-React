@@ -5,6 +5,7 @@ import Footer from "../components/common/footer";
 import Delivery from "../components/delivery";
 import DiningOut from "../components/diningOut";
 import Nightlife from "../components/nightlife";
+import Footer2 from "../components/common/footer2";
 
 const Homepage = () => {
   const [activeTab, setActiveTab] = useState("Delivery");
@@ -15,6 +16,7 @@ const Homepage = () => {
       <TabOptions activeTab={activeTab} setActiveTab={setActiveTab} />
       {getCorrectScreen(activeTab)}
       <Footer />
+      <Footer2 />
     </div>
   );
 };
