@@ -48,7 +48,7 @@ const HeaderSlider = () => {
           {sliderContent.map((item, index) => {
             return (
               <div key={index} className="card">
-                <img src={item.src} alt="image" />
+                <img src={item.src} alt="images" />
                 <div className="footer">
                   <h3>{item.title}</h3>
                   <span>{item.footer}</span>
